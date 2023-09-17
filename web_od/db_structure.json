@@ -1,0 +1,408 @@
+{
+  "form": [
+    "uuid|TEXT",
+    "estate|TEXT",
+    "transaction_type|TEXT",
+    "investment_type|TEXT",
+    "location|TEXT",
+    "radius|INTEGER",
+    "price_min|INTEGER",
+    "price_max|INTEGER",
+    "area_min|INTEGER",
+    "area_max|INTEGER",
+    "market|TEXT",
+    "owner_type|TEXT",
+    "availability|TEXT",
+    "people_per_room|INTEGER",
+    "estates_on_page|INTEGER"
+  ],
+  "lvl-0": [
+    "uuid|TEXT",
+    "table_extend|TEXT",
+    "id|INTEGER",
+    "date|TEXT",
+    "time|TEXT",
+    "page|INTEGER",
+    "url|TEXT",
+    "estate|TEXT",
+    "transaction_type|TEXT",
+    "pic_count|INTEGER",
+    "title|TEXT",
+    "address|TEXT",
+    "price_zl|INTEGER",
+    "area_m2|REAL",
+    "owner_name|TEXT",
+    "owner_type|TEXT"
+  ],
+  "lvl-3": [
+    "uuid|TEXT",
+    "otodom_nr|INTEGER",
+    "agency_nr|TEXT",
+    "added_date|TEXT",
+    "update_date|TEXT"
+  ],
+  "Mieszkania": {
+    "specific": {
+      "sell": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "ownership|TEXT",
+        "room_count|INTEGER",
+        "condition|TEXT",
+        "floor|TEXT",
+        "b_g_t|TEXT",
+        "rent|REAL",
+        "parking|TEXT",
+        "remote_access|TEXT",
+        "heating|TEXT"
+      ],
+      "rent": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "rent|REAL",
+        "room_count|INTEGER",
+        "deposit|REAL",
+        "floor|TEXT",
+        "building_type|TEXT",
+        "avaliable|TEXT",
+        "b_g_t|TEXT",
+        "remote_access|TEXT",
+        "condition|TEXT"
+      ]
+    },
+    "additional": {
+      "sell": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "market|TEXT",
+        "advertiser|TEXT",
+        "avaliable|TEXT",
+        "building_year|INTEGER",
+        "building_type|TEXT",
+        "windows|TEXT",
+        "elevator|INTEGER",
+        "media|TEXT",
+        "protection|TEXT",
+        "equipment|TEXT",
+        "additional_info|TEXT",
+        "building_material|TEXT"
+      ],
+      "rent": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "advertiser|TEXT",
+        "students|INTEGER",
+        "equipment|TEXT",
+        "media|TEXT",
+        "heating|TEXT",
+        "protection|TEXT",
+        "windows|TEXT",
+        "elevator|INTEGER",
+        "parking|TEXT",
+        "building_year|INTEGER",
+        "building_material|TEXT",
+        "additional_info|TEXT"
+      ]
+    }
+  },
+  "Kawalerki": {
+    "specific": {
+      "sell": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "ownership|TEXT",
+        "room_count|INTEGER",
+        "condition|TEXT",
+        "floor|TEXT",
+        "b_g_t|TEXT",
+        "rent|REAL",
+        "parking|TEXT",
+        "remote_access|TEXT",
+        "heating|TEXT"
+      ],
+      "rent": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "rent|REAL",
+        "room_count|INTEGER",
+        "deposit|REAL",
+        "floor|TEXT",
+        "building_type|TEXT",
+        "avaliable|TEXT",
+        "b_g_t|TEXT",
+        "remote_access|TEXT",
+        "condition|TEXT"
+      ]
+    },
+    "additional": {
+      "sell": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "market|TEXT",
+        "advertiser|TEXT",
+        "avaliable|TEXT",
+        "building_year|INTEGER",
+        "building_type|TEXT",
+        "windows|TEXT",
+        "elevator|INTEGER",
+        "media|TEXT",
+        "protection|TEXT",
+        "equipment|TEXT",
+        "additional_info|TEXT",
+        "building_material|TEXT"
+      ],
+      "rent": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "advertiser|TEXT",
+        "students|INTEGER",
+        "equipment|TEXT",
+        "media|TEXT",
+        "heating|TEXT",
+        "protection|TEXT",
+        "windows|TEXT",
+        "elevator|INTEGER",
+        "parking|TEXT",
+        "building_year|INTEGER",
+        "building_material|TEXT",
+        "additional_info|TEXT"
+      ]
+    }
+  },
+  "Domy": {
+    "specific": {
+      "sell": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "heating|TEXT",
+        "land_area|REAL",
+        "condition|TEXT",
+        "building_type|TEXT",
+        "building_year|INTEGER",
+        "room_count|INTEGER",
+        "parking|TEXT",
+        "remote_access|TEXT",
+        "rent|REAL"
+      ],
+      "rent": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "rent|REAL",
+        "room_count|INTEGER",
+        "deposit|REAL",
+        "building_type|TEXT",
+        "parking|TEXT",
+        "floors_count|TEXT",
+        "avaliable|TEXT",
+        "remote_access|TEXT",
+        "condition|TEXT"
+      ]
+    },
+    "additional": {
+      "sell": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "market|TEXT",
+        "advertiser|TEXT",
+        "avaliable|TEXT",
+        "building_material|TEXT",
+        "windows|TEXT",
+        "floors_count|TEXT",
+        "recreation|TEXT",
+        "roof|TEXT",
+        "roofing|TEXT",
+        "attic|TEXT",
+        "media|TEXT",
+        "protection|TEXT",
+        "fence|TEXT",
+        "drive|TEXT",
+        "location|TEXT",
+        "neighborhood|TEXT",
+        "additional_info|TEXT"
+      ],
+      "rent": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "advertiser|TEXT",
+        "heating|TEXT",
+        "building_year|INTEGER",
+        "media|TEXT",
+        "land_area|REAL",
+        "windows|TEXT",
+        "recreation|TEXT",
+        "protection|TEXT",
+        "fence|TEXT",
+        "drive|TEXT",
+        "location|TEXT",
+        "neighborhood|TEXT",
+        "building_material|TEXT",
+        "roof|TEXT",
+        "roofing|TEXT",
+        "attic|TEXT",
+        "additional_info|TEXT"
+      ]
+    }
+  },
+  "Inwestycje": {
+    "specific": {
+      "all": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "start_of_construction|TEXT",
+        "number_of_storeys|INTEGER",
+        "investment_status|TEXT",
+        "area|REAL",
+        "room_height|REAL",
+        "protection|TEXT",
+        "facilities|TEXT",
+        "additional_spaces|TEXT"
+      ]
+    }
+  },
+  "Pokoje": {
+    "specific": {
+      "rent": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "additional_cost|TEXT",
+        "people_per_room|INTEGER",
+        "deposit|REAL",
+        "building_type|TEXT",
+        "avaliable|TEXT",
+        "remote_access|TEXT",
+        "non_smokers|INTEGER"
+      ]
+    },
+    "additional": {
+      "rent": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "advertiser|TEXT",
+        "media|TEXT",
+        "equipment|TEXT"
+      ]
+    }
+  },
+  "Działki": {
+    "specific": {
+      "sell": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "plot_type|TEXT",
+        "location|TEXT",
+        "dimensions|TEXT",
+        "remote_access|TEXT",
+        "advertiser|TEXT"
+      ],
+      "rent": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "plot_type|TEXT",
+        "location|TEXT",
+        "advertiser|TEXT",
+        "remote_access|TEXT",
+        "fence|TEXT"
+      ]
+    },
+    "additional": {
+      "sell": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "fence|TEXT",
+        "media|TEXT",
+        "drive|TEXT",
+        "neighborhood|TEXT"
+      ],
+      "rent": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "media|TEXT",
+        "drive|TEXT",
+        "neighborhood|TEXT"
+      ]
+    }
+  },
+  "Lokale użytkowe": {
+    "specific": {
+      "all": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "purpose|TEXT",
+        "floor|TEXT",
+        "location|TEXT",
+        "condition|TEXT",
+        "advertiser|TEXT",
+        "remote_access|TEXT",
+        "market|TEXT"
+      ]
+    },
+    "additional": {
+      "all": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "building_year|INTEGER",
+        "media|TEXT",
+        "protection|TEXT",
+        "additional_info|TEXT"
+      ]
+    }
+  },
+  "Hale i magazyny": {
+    "specific": {
+      "all": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "purpose|TEXT",
+        "construction|TEXT",
+        "height|REAL",
+        "condition|TEXT",
+        "advertiser|TEXT",
+        "remote_access|TEXT",
+        "market|TEXT"
+      ]
+    },
+    "additional": {
+      "all": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "office_rooms|TEXT",
+        "social_facilities|TEXT",
+        "parking|TEXT",
+        "ramp|TEXT",
+        "heating|TEXT",
+        "flooring|TEXT",
+        "media|TEXT",
+        "protection|TEXT",
+        "fence|TEXT",
+        "drive|TEXT"
+      ]
+    }
+  },
+  "Garaże": {
+    "specific": {
+      "all": [
+        "uuid|TEXT",
+        "id|INTEGER",
+        "area|REAL",
+        "lighting|TEXT",
+        "location|TEXT",
+        "heating|TEXT",
+        "construction|TEXT",
+        "advertiser|TEXT",
+        "remote_access|TEXT",
+        "market|TEXT"
+      ]
+    }
+  }
+}

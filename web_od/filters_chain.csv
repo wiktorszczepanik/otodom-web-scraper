@@ -1,0 +1,9 @@
+m;estate;transaction;location;radius;market;owner_type;price_min;price_max;area_min;area_max;estates_on_page
+k;estate;transaction;location;radius;market;owner_type;price_min;price_max;area_min;area_max;estates_on_page
+d;estate;transaction;location;radius;market;owner_type;price_min;price_max;area_min;area_max;estates_on_page
+i;estate;investment_type;location;radius;price_min;price_max;area_min;area_max;estates_on_page
+p;estate;transaction;location;radius;price_min;price_max;availability;people_per_room;estates_on_page
+d;estate;transaction;location;radius;market;owner_type;price_min;price_max;area_min;area_max;estates_on_page
+l;estate;transaction;location;radius;market;owner_type;price_min;price_max;area_min;area_max;estates_on_page
+h;estate;transaction;location;radius;market;owner_type;price_min;price_max;area_min;area_max;estates_on_page
+g;estate;transaction;location;radius;market;owner_type;price_min;price_max;area_min;area_max;estates_on_page
