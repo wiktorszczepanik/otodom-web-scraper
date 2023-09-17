@@ -1,9 +1,9 @@
 # otodom-web-scraper
 ## Web scraper for Otodom.pl
-Bot is written in Python. The main library used in this project is Sellenium. Scraper collects estates data to SQLite database. Database files are located in db directory.
+Bot is written in Python. The main library used in this project is Sellenium. Scraper collects estates data to SQLite database. Database files are located in db directory. The **.db** file and all the tables in it are created automatically based on the selected filters.
 
 ![alt text](additional/img/sql_schema01.png?raw=true)
-*database schema*
+*example database schema*
 
 ### Setup
 Filters and other key information’s are implemented by **.json** file in the filters directory. Modifying this file will affect selected filters on the website page. Filters directory may also contain more filter files.
