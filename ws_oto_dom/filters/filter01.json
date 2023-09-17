@@ -1,0 +1,20 @@
+{
+  "estate": "mieszkanie",
+  "transaction": "wynajem",
+  "investment_type": "mieszkanie",
+  "location": "warszawa",
+  "radius": 0,
+  "price": {
+    "price_min": 0,
+    "price_max": 100000000
+  },
+  "area": {
+    "area_min": 0,
+    "area_max": 1000000
+  },
+  "market": "pierwotny",
+  "owner_type": "Osoby Prywatne",
+  "availability": "zaraz",
+  "people_per_room": 4.5,
+  "estates_on_page": 10
+}
