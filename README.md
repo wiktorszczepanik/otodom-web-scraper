@@ -1,6 +1,6 @@
 # otodom-web-scraper
 ## Web scraper for Otodom.pl
-This bot is written in Python, and the main library used in this project is Sellenium. Scraper collects real estate data into SQLite database. Database files are located in db directory. The **.db** file and all the tables in it are created automatically based on the selected filters.
+This bot is written in Python and the main library used in this project is Sellenium. Scraper collects real estate data into SQLite database. Database files are located in db directory. The **.db** file and all the tables in it are created automatically based on the selected filters.
 
 ![alt text](additional/img/sql_schema01.png?raw=true)
 *example database schema*
