@@ -1,4 +1,3 @@
-# otodom-web-scraper
 ## Web scraper for Otodom.pl
 This bot is developed in Python, with the main library used being Selenium. The scraper collects real estate data and stores it in an SQLite database, with database files located in the ***db*** directory. The **.db** file and all its tables are automatically generated based on the selected filters.
 
