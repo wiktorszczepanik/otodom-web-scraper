@@ -1,0 +1,3 @@
+additional/*.sql linguist-generated=true
+additional/*.sql linguist-language=SQL
+additional/*.sql linguist-detectable=true
